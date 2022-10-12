@@ -1,0 +1,80 @@
+/*common start*/
+body{
+   font-family: 'PT Sans', sans-serif; 
+   font-size: 16px;
+   font-weight: 400;
+   color:#555555;
+}
+
+
+/*header css start*/
+header{
+   padding: 20px 0;
+   background-color: #fcdb00;
+}
+.c_nav{}
+.logo{}
+.menu ul li a{
+   padding-right: 75px !important;
+   font-family: 'PT Sans', sans-serif; 
+   font-size: 22px;
+   font-weight: 700;
+   color: #010101 !important;
+}
+.menu ul li:last-child a{
+   padding-right: 0 !important;
+}
+.menu ul li a:hover{
+   color: #ffffff !important;
+}
+/*header css end*/
+
+/*slider start*/
+.slider{
+   padding-bottom: 100px;
+   background-color: #fcdb00;
+}
+.s-text h1{
+   padding: 70px 0 20px;
+   font-size: 32px;
+   font-weight: 700;
+   color: #010101 ;
+}
+.s-text h2{
+   padding-bottom: 10px;
+   font-size: 20px;
+   font-weight: 400;
+   color: #313841;
+}
+
+.s-text p{
+   padding-bottom: 30px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #555555;
+}
+
+.s-text i{
+   padding-right: 25px;
+   font-size: 42px;
+   color: #010101;
+   transition: .3s;
+}
+
+.s-text i:hover{
+   transform: scale(0.5);
+}
+.c-indicator {
+   
+   bottom: -82px;
+  
+}
+
+.c-indicator [data-bs-target] {
+   
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+}
+
+/*slider end*/
